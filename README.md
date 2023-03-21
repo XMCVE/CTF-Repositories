@@ -12,4 +12,4 @@
 
 ## 比赛索引
 
-[b01lers CTF](2023/b01lers CTF)
+[b01lers CTF](2023/b01lers%20CTF)
