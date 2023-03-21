@@ -12,4 +12,6 @@
 
 ## 比赛索引
 
-[b01lers CTF](2023/b01lers%20CTF)
+近期的比赛依次置顶
+
+* [b01lers CTF](2023/b01lers%20CTF)
