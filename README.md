@@ -14,4 +14,6 @@
 
 近期的比赛依次置顶
 
+* [MidnightSunCTF](2023/MidnightSunCTF)
+* [NKCTF](2023/NKCTF)
 * [b01lers CTF](2023/b01lers%20CTF)
