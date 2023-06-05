@@ -1,0 +1,24 @@
+FROM docker.io/ruby:buster
+
+RUN useradd -m ctf
+
+WORKDIR /home/ctf
+
+COPY . .
+
+RUN touch sqlite.db
+
+RUN chown ctf:ctf sqlite.db
+
+USER ctf
+
+RUN gem install puma sinatra erubi
+
+RUN gem install sqlite3 --version '1.4.2'
+
+USER root
+RUN apt update && apt install -y nginx
+COPY ./nginx.conf /etc/nginx/sites-enabled/default
+
+USER root
+CMD bash -c '/usr/sbin/nginx && su ctf -c "cd /home/ctf && ruby dangerous.rb"'

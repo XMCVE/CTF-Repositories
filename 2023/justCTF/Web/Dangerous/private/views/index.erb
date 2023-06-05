@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="/water.css">
+	<title>dangerous</title>
+</head>
+<body>
+	<h1>dangerous</h1>
+	<form action="/thread" method="POST">
+		<textarea name="content" placeholder="Your opinion on something" cols=32 rows=4></textarea>
+		<button type="submit">New Thread</button>
+	</form>
+	<div>
+	<% @threads.each do |thread| %>
+    	<div><a href="/<%= thread[0] %>"><%= thread[1] %></a><div>
+	<% end %>
+	</div>
+</body>
+</html>
