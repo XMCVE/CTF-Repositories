@@ -1,0 +1,11 @@
+// Example data, change this!!!
+{
+	"mods": [
+		{
+			"username": "admin",
+			"password": "testpasswd123",
+			"allowed_ip": "127.0.0.1"
+		}
+	],
+	"flag": "testflag"
+}
