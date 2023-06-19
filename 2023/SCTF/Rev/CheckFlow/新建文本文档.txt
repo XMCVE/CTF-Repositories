@@ -1,0 +1,2 @@
+Input the flow to test the channel.
+flag format:sctf{Caps MD5}
