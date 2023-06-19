@@ -1,0 +1,5 @@
+题目flag为：
+flag{password0+password1+password2}
+这是一个恶意app，尽量跑在模拟器或调试机上(>=Android5.0)，必要时通过adb uninstall packagename卸载。此app仅供本次比赛使用，不要随意转发给他人。
+点击后等待30s左右便会开始锁机，测过Android7模拟器，Android10 pixel2真机，均可正常运行。
+玩的愉快。
