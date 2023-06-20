@@ -1,0 +1,11 @@
+Model Information:
+* title:	"My Computer"
+* source:	https://sketchfab.com/3d-models/my-computer-ab309ab0cf094372b6f1b26b91c35eca
+* author:	Tobalation (https://sketchfab.com/tobalation)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on ""My Computer"" (https://sketchfab.com/3d-models/my-computer-ab309ab0cf094372b6f1b26b91c35eca) by Tobalation (https://sketchfab.com/tobalation) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
