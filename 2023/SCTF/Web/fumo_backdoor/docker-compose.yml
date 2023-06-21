@@ -1,0 +1,29 @@
+version: "2"
+services:
+  imagsess:
+    build: 
+      context: ./
+      dockerfile: Dockerfile
+    restart: always
+    networks:
+      - no-internet
+  
+  proxy:
+    image: nginx
+    restart: always
+    ports:
+      - "18080:80"
+    networks:
+      - internet
+      - no-internet
+    volumes:
+      - ./nginx:/etc/nginx/conf.d
+    
+
+networks:
+  internet:
+    driver: bridge
+    internal: false
+  no-internet:
+    driver: bridge
+    internal: true

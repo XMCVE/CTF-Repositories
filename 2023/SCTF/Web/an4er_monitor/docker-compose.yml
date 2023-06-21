@@ -1,0 +1,7 @@
+version: '3'
+services:
+  monitor:
+    image: sctf/monitor
+    ports:
+      - '80'
+    restart: unless-stopped
